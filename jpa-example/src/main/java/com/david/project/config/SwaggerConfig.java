@@ -14,9 +14,9 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("會員管理系統 API for JDBC")
+                        .title("會員管理系統 API for JPA")
                         .version("1.0")
-                        .description("這是一個使用 Spring Boot 和 JDBC 實現的會員管理系統範例。")
+                        .description("這是一個使用 Spring Boot 和 JPA 實現的會員管理系統範例。")
                         .contact(new Contact()
                                 .name("David Project Team")
                                 .email("davidchen@example.com")
