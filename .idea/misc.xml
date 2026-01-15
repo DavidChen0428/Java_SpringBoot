@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/jdbc-example/pom.xml" />
         <option value="$PROJECT_DIR$/jpa-example/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-example/pom.xml" />
+        <option value="$PROJECT_DIR$/email-example/pom.xml" />
       </list>
     </option>
   </component>
