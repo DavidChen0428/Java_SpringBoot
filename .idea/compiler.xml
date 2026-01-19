@@ -20,6 +20,7 @@
         <module name="jdbc-example" />
         <module name="jpa-example" />
         <module name="email-example" />
+        <module name="logback-example" />
       </profile>
     </annotationProcessing>
   </component>
@@ -29,6 +30,7 @@
       <module name="email-example" options="-parameters" />
       <module name="jdbc-example" options="-parameters" />
       <module name="jpa-example" options="-parameters" />
+      <module name="logback-example" options="-parameters" />
       <module name="mybatis-example" options="-parameters" />
     </option>
   </component>
