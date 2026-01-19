@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/email-example/pom.xml" />
         <option value="$PROJECT_DIR$/custom-annotation-example/pom.xml" />
         <option value="$PROJECT_DIR$/logback-example/pom.xml" />
+        <option value="$PROJECT_DIR$/log4j2-example/pom.xml" />
       </list>
     </option>
   </component>

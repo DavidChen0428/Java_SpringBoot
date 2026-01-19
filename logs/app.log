@@ -1,0 +1,137 @@
+2026-01-19 22:53:09.063 [restartedMain] INFO  com.david.project.Log4j2ExampleApplication - Starting Log4j2ExampleApplication using Java 21.0.9 with PID 2204 (D:\Intellij_MyProject\Java_SpringBoot\log4j2-example\target\classes started by david in D:\Intellij_MyProject\Java_SpringBoot)
+2026-01-19 22:53:09.071 [restartedMain] DEBUG com.david.project.Log4j2ExampleApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-19 22:53:09.072 [restartedMain] INFO  com.david.project.Log4j2ExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-19 22:53:09.112 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-19 22:53:09.115 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-19 22:53:09.675 [restartedMain] WARN  org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+2026-01-19 22:53:09.681 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-19 22:53:09.691 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension.<clinit>(JpaRepositoryConfigExtension.java:111)
+	at org.springframework.boot.data.jpa.autoconfigure.DataJpaRepositoriesRegistrar.getRepositoryConfigurationExtension(DataJpaRepositoriesRegistrar.java:57)
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:67)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromImportBeanDefinitionRegistrars$0(ConfigurationClassBeanDefinitionReader.java:422)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportBeanDefinitionRegistrars(ConfigurationClassBeanDefinitionReader.java:421)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:152)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:458)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:794)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.david.project.Log4j2ExampleApplication.main(Log4j2ExampleApplication.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 22 more
+2026-01-19 22:56:53.419 [restartedMain] INFO  com.david.project.Log4j2ExampleApplication - Starting Log4j2ExampleApplication using Java 21.0.9 with PID 17492 (D:\Intellij_MyProject\Java_SpringBoot\log4j2-example\target\classes started by david in D:\Intellij_MyProject\Java_SpringBoot)
+2026-01-19 22:56:53.425 [restartedMain] DEBUG com.david.project.Log4j2ExampleApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-19 22:56:53.426 [restartedMain] INFO  com.david.project.Log4j2ExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-19 22:56:53.455 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-19 22:56:53.455 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-19 22:56:53.884 [restartedMain] WARN  org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+2026-01-19 22:56:53.887 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-19 22:56:53.897 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension.<clinit>(JpaRepositoryConfigExtension.java:111)
+	at org.springframework.boot.data.jpa.autoconfigure.DataJpaRepositoriesRegistrar.getRepositoryConfigurationExtension(DataJpaRepositoriesRegistrar.java:57)
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:67)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromImportBeanDefinitionRegistrars$0(ConfigurationClassBeanDefinitionReader.java:422)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportBeanDefinitionRegistrars(ConfigurationClassBeanDefinitionReader.java:421)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:152)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:458)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:794)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.david.project.Log4j2ExampleApplication.main(Log4j2ExampleApplication.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 22 more
+2026-01-19 22:59:41.655 [restartedMain] INFO  com.david.project.Log4j2ExampleApplication - Starting Log4j2ExampleApplication using Java 21.0.9 with PID 21448 (D:\Intellij_MyProject\Java_SpringBoot\log4j2-example\target\classes started by david in D:\Intellij_MyProject\Java_SpringBoot)
+2026-01-19 22:59:41.660 [restartedMain] DEBUG com.david.project.Log4j2ExampleApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-19 22:59:41.661 [restartedMain] INFO  com.david.project.Log4j2ExampleApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-19 22:59:41.695 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-19 22:59:41.695 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-19 22:59:42.210 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-19 22:59:42.246 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2026-01-19 22:59:42.633 [restartedMain] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-19 22:59:42.649 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-19 22:59:42.651 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-19 22:59:42.651 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-19 22:59:42.696 [restartedMain] INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 999 ms
+2026-01-19 22:59:42.885 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-19 22:59:43.043 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/.test/jpa-example-db user=ADMIN
+2026-01-19 22:59:43.044 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-19 22:59:43.077 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:file:~/.test/jpa-example-db (H2 2.4)
+2026-01-19 22:59:43.084 [restartedMain] WARN  org.flywaydb.core.internal.database.base.Database - Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026-01-19 22:59:43.116 [restartedMain] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.019s)
+2026-01-19 22:59:43.126 [restartedMain] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "PUBLIC": 1
+2026-01-19 22:59:43.130 [restartedMain] INFO  org.flywaydb.core.internal.command.DbMigrate - Schema "PUBLIC" is up to date. No migration necessary.
+2026-01-19 22:59:43.181 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-19 22:59:43.216 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-19 22:59:43.511 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-19 22:59:43.563 [restartedMain] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:file:~/.test/jpa-example-db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: JPA-EXAMPLE-DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-19 22:59:44.149 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-19 22:59:44.155 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-19 22:59:44.220 [restartedMain] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-19 22:59:44.355 [restartedMain] WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-19 22:59:44.387 [restartedMain] INFO  org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-01-19 22:59:44.624 [restartedMain] INFO  org.springframework.boot.h2console.autoconfigure.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/.test/jpa-example-db'
+2026-01-19 22:59:44.647 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-19 22:59:44.660 [restartedMain] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-19 22:59:44.665 [restartedMain] INFO  com.david.project.Log4j2ExampleApplication - Started Log4j2ExampleApplication in 3.398 seconds (process running for 3.912)
+2026-01-19 22:59:44.669 [restartedMain] INFO  com.david.project.Log4j2ExampleApplication - 
+----------------------------------------------------------
+	Application 'log4j2-example' is running! Access URLs:
+	Local:         http://localhost:8080/
+	H2 DB Console: http://localhost:8080/h2-console
+	SwaggerUI:     http://localhost:8080/swagger-ui/index.html
+----------------------------------------------------------
+2026-01-19 22:59:48.507 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-19 22:59:48.508 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-19 22:59:48.510 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-19 22:59:48.986 [http-nio-8080-exec-4] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 256 ms
+2026-01-19 22:59:54.540 [http-nio-8080-exec-5] INFO  com.david.project.rest.api.UserController - Get all users.
+2026-01-19 23:00:12.116 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-19 23:00:12.122 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-19 23:00:12.124 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-19 23:00:12.150 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-19 23:00:12.152 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
