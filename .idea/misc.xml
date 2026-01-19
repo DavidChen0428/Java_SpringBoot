@@ -11,7 +11,16 @@
         <option value="$PROJECT_DIR$/custom-annotation-example/pom.xml" />
         <option value="$PROJECT_DIR$/logback-example/pom.xml" />
         <option value="$PROJECT_DIR$/log4j2-example/pom.xml" />
+        <option value="$PROJECT_DIR$/module-example/pom.xml" />
+        <option value="$PROJECT_DIR$/module-example/pccompany-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/module-example/library-module/pom.xml" />
+        <option value="$PROJECT_DIR$/module-example/app-module/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/module-example/pccompany-repository/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="temurin-21" project-jdk-type="JavaSDK">

@@ -8,7 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="custom-annotation-example" />
+        <module name="library-module" />
         <module name="log4j2-example" />
+        <module name="app-module" />
       </profile>
       <profile name="Annotation profile for mybatis-example" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -24,16 +26,23 @@
         <module name="logback-example" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pccompany-repository" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-module" options="-parameters" />
       <module name="custom-annotation-example" options="-parameters" />
       <module name="email-example" options="-parameters" />
       <module name="jdbc-example" options="-parameters" />
       <module name="jpa-example" options="-parameters" />
+      <module name="library-module" options="-parameters" />
       <module name="log4j2-example" options="-parameters" />
       <module name="logback-example" options="-parameters" />
+      <module name="module-example" options="" />
       <module name="mybatis-example" options="-parameters" />
+      <module name="pccompany-repository" options="-parameters" />
     </option>
   </component>
 </project>

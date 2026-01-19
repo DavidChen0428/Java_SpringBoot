@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: app-module
+server:
+  port: 8080
+logging:
+  level:
+    root: INFO
+springdoc:
+  swagger-ui:
+    path: /swagger-ui/index.html
+  api-docs:
+    path: /v3/api-docs
