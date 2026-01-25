@@ -12,6 +12,7 @@
         <module name="log4j2-example" />
         <module name="app-module" />
         <module name="transactional-example" />
+        <module name="kafka-example" />
       </profile>
       <profile name="Annotation profile for mybatis-example" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -38,6 +39,7 @@
       <module name="email-example" options="-parameters" />
       <module name="jdbc-example" options="-parameters" />
       <module name="jpa-example" options="-parameters" />
+      <module name="kafka-example" options="-parameters" />
       <module name="library-module" options="-parameters" />
       <module name="log4j2-example" options="-parameters" />
       <module name="logback-example" options="-parameters" />
