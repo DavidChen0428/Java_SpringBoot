@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: http-actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+    health:
+      show-details: always
+      group:
+        readiness:
+          include: db, custom
+        liveness:
+          include: ping
