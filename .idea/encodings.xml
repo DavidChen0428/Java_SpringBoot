@@ -14,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/module-example/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module-example/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcp-listener-example/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/transactional-example/src/main/java" charset="UTF-8" />
   </component>
 </project>
