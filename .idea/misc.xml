@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/transactional-example/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-example/pom.xml" />
         <option value="$PROJECT_DIR$/tcp-listener-example/pom.xml" />
+        <option value="$PROJECT_DIR$/http-listener-example/pom.xml" />
+        <option value="$PROJECT_DIR$/http-listener-example/http-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/http-listener-example/http-listener/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
