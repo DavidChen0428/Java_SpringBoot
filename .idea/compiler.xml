@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="app-module" />
+        <module name="tcp-listener-example" />
+        <module name="transactional-example" />
         <module name="custom-annotation-example" />
         <module name="library-module" />
         <module name="log4j2-example" />
-        <module name="app-module" />
-        <module name="transactional-example" />
         <module name="kafka-example" />
       </profile>
       <profile name="Annotation profile for mybatis-example" enabled="true">
@@ -46,6 +47,7 @@
       <module name="module-example" options="" />
       <module name="mybatis-example" options="-parameters" />
       <module name="pccompany-repository" options="-parameters" />
+      <module name="tcp-listener-example" options="-parameters" />
       <module name="transactional-example" options="-parameters" />
     </option>
   </component>
