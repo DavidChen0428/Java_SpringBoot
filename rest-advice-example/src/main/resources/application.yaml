@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: rest-advice-example
+springdoc:
+  swagger-ui:
+    path: /swagger-ui/index.html
+  api-docs:
+    path: /v3/api-docs
