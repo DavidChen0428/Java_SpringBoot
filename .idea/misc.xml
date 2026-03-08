@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/http-listener-example/pom.xml" />
         <option value="$PROJECT_DIR$/http-listener-example/http-actuator/pom.xml" />
         <option value="$PROJECT_DIR$/http-listener-example/http-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-advice-example/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
